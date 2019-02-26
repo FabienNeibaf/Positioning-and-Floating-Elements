@@ -1,0 +1,63 @@
+footer {
+    /*border: 1px solid red;*/
+    padding: 0 3%;
+}
+
+#bottom_menu li {
+    list-style: none;
+    border-top: 1px solid #ebebeb;
+    font-size: 13px;
+    font-weight: 700;
+    /*height: 44px;*/
+    padding-top: 15px;
+    padding-bottom: 15px;
+    vertical-align: middle;
+    display: block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 0.04rem;
+}
+
+#blurred_row {
+    text-align: center;
+}
+
+#blurred_row li {
+    list-style: none;
+    display: inline-block;
+    font-weight: inherit;
+    font-size: 100%;
+    padding: 0 5px;
+}
+
+#blurred_row a {
+    text-decoration: none;
+    font-size: 12px;
+    color: grey;
+}
+
+#blurred_row a:hover {
+    text-decoration: underline;
+}
+
+footer .go2home {
+    /*border: 1px solid black;*/
+    float: right;
+    width: 40%;
+    text-align: right;
+    color: rgb(98, 136, 165);
+    font-family: nyt-franklin;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 11px;
+    vertical-align: middle;
+    padding-top: 10px;
+}
+
+footer .go2home a {
+    text-decoration: none;
+}
+
+footer .go2home a:hover {
+    text-decoration: underline;
+}
