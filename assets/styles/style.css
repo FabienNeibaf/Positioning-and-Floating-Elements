@@ -1,0 +1,123 @@
+/****************** ALTERNATIVE *****************/
+
+#alternative {
+    padding: 0 1%;
+    border: 1px solid red;
+}
+
+#thumbnails {
+    width: 65%;
+}
+
+#alternative aside {
+    width: 31%;
+    border: 1px solid green;
+}
+
+
+/****************** ALTERNATIVE [end]*****************/
+
+
+/****************** FOOTER *****************/
+
+footer {
+    /*border: 1px solid red;*/
+    padding: 0 1%;
+}
+
+#foot_title {
+    padding-left: 3%;
+}
+
+#bottom_menu li {
+    list-style: none;
+    border-top: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+    font-size: 13px;
+    font-weight: 700;
+    /*height: 44px;*/
+    padding-top: 15px;
+    padding-bottom: 15px;
+    vertical-align: middle;
+    display: block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 0.04rem;
+}
+
+#blurred_row {
+    text-align: center;
+}
+
+#blurred_row li {
+    list-style: none;
+    display: inline-block;
+    font-weight: inherit;
+    font-size: 100%;
+    padding: 0 5px;
+}
+
+#blurred_row a {
+    text-decoration: none;
+    font-size: 12px;
+    color: grey;
+}
+
+#blurred_row a:hover {
+    text-decoration: underline;
+}
+
+footer .go2home {
+    /*border: 1px solid black;*/
+    float: right;
+    width: 40%;
+    text-align: right;
+    font-family: nyt-franklin;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 11px;
+    vertical-align: middle;
+    padding-top: 10px;
+}
+
+footer .go2home a {
+    text-decoration: none;
+    color: rgb(98, 136, 165);
+}
+
+footer .go2home a:hover {
+    text-decoration: underline;
+}
+
+#last_line .subscribe_bottom {
+    width: 15%;
+    /*border: 1px solid green;*/
+    /*overflow: hidden;*/
+    float: right;
+    text-align: right;
+    text-transform: uppercase;
+    letter-spacing: 0.24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkslategray;
+}
+
+#last_line .bottom_txt {
+    width: 80%;
+    text-align: center;
+    /*border: 1px solid red;*/
+    float: left;
+    color: darkslategray;
+    letter-spacing: 0.24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+footer hr {
+    border-color: black;
+}
+
+.lite_weight {
+    font-weight: 100;
+}
+
+
+/****************** FOOTER [end] *****************/
