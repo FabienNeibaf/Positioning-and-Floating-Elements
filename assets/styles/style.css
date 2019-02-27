@@ -1,27 +1,27 @@
 * {
     box-sizing: border-box;
+    font-size: 14.5px;
+    line-height: 1.4;
 }
 
 body {
     margin: 0;
-    background: #fff;
     font-family: karnak-normal-400, sans-serif;
 }
 
 nav {
-    top: 0;
-    width: 100%;
-    position: fixed;
-    overflow: hidden;
-    padding: 5px 15px;
-    background: #fff;
-    border-bottom: 1px solid #ddd;
+  top: 0;
+  width: 100%;
+  position: fixed;
+  overflow: hidden;
+  padding: 5px 15px;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
 }
 
 nav > div {
-    float: left;
-    width: 33.33%;
-    vertical-align: middle;
+  float: left;
+  width: 33.33%;
 }
 
 #menu svg {
@@ -30,10 +30,11 @@ nav > div {
 }
 
 #menu button {
-    border: none;
-    padding: 5px;
-    background: none;
-    border-radius: 3px;
+  border: none;
+  padding: 5px;
+  background: none;
+  border-radius: 3px;
+  vertical-align: middle;
 }
 
 #menu button:hover {
@@ -55,21 +56,30 @@ nav > div {
 }
 
 #logo svg {
-    height: 25px;
+  top: 4px;
+  height: 25px;
+  position: relative;
 }
 
 #account {
-    text-align: right;
+  text-align: right;
 }
 
-#account button {
-    padding: 7px;
-    color: #fff;
-    font-weight: bold;
-    border-radius: 3px;
-    text-transform: uppercase;
-    background-color: #6288a5;
-    border: 1px solid #326891;
+#account button{
+  color: #fff;
+  cursor: pointer;
+  font-size: 0.75em;
+  padding: 5px 7px;
+  font-weight: bold;
+  border-radius: 3px;
+  text-transform: uppercase;
+  background-color: #6288a5;
+  border: 1px solid #326891;
+}
+
+#account button:active {
+  color: #555;
+  background: #fff;
 }
 
 main {
@@ -115,19 +125,15 @@ main {
   overflow: hidden;
 }
 
-#subscribe {
-    color: #fff;
-    padding: 30px;
-    background: #000;
-    text-align: center;
+.extra ul {
+  margin: 0;
+  padding: 0;
+  float: right;
+  list-style-type: none;
 }
 
-#subscribe>div {
-    padding: 20px;
-    text-align: left;
-    white-space: nowrap;
-    vertical-align: top;
-    display: inline-block;
+.extra ul > li{
+  display: inline-block;
 }
 
 article h2 {
@@ -146,9 +152,11 @@ article p {
   margin: 20px auto;
 }
 
-#subscribe>div.second {
-    font-weight: 700;
-    font-size: 1.5em;
+article img {
+  width: 100%;
+  float:right;
+  margin: auto;
+  display: block;
 }
 
 article .author, article .extra {
@@ -191,7 +199,6 @@ iframe {
 footer {
     /*border: 1px solid red;*/
     padding: 0 1%;
-    background-color: white;
 }
 
 #foot_title {
@@ -304,29 +311,12 @@ footer hr {
   float: left;
 }
 
-#thumbnails .thumbnails_sub_title {
-    display: inline-block;
-    padding-top: 2%;
-    padding-bottom: 2%;
-}
-
-#thumbnails .thumbnails_sub_title a {
-    text-decoration: none;
-    color: black;
-    font-weight: 600;
-}
-
-#thumbnails .thumbnails_sub_title a:hover {
-    text-decoration: underline;
-}
-
 #alternative aside {
-    width: 32%;
-    /*border: 1px solid green;*/
-    float: left;
-    border-top: 1px solid rgb(0, 0, 0);
-    margin-bottom: 19%;
-    margin-left: 2%;
+  width: 32%;
+  float: left;
+  border-top: 1px solid rgb(0, 0, 0);
+  margin-bottom: 14%;
+  margin-left: 2%;
 }
 
 #alternative .side_headings {
@@ -356,8 +346,8 @@ footer hr {
 }
 
 #thumbnails {
-    border-top: 1px solid rgb(0, 0, 0);
-    /*padding-top: 2%;*/
+  border-top: 1px solid rgb(0, 0, 0);
+  padding-top: 2%;
 }
 
 #thumbnails .thumbnails_row .thumbnail_block {
@@ -395,17 +385,8 @@ footer hr {
 }
 
 #thumbnails .thumbnails_row .thumbnail_block h3 {
-    font-size: 18px;
-    line-height: 22px;
-    padding: 0;
-    margin: 0;
-}
-
-.bottom_line_divisor {
-    display: inline-block;
-    width: 100%;
-    border-bottom: 1px solid black;
-    border-bottom-style: double;
-    border-bottom-color: grey;
-    padding-bottom: 19px;
+  font-size: 18px;
+  line-height: 22px;
+  padding: 0;
+  margin: 0;
 }
