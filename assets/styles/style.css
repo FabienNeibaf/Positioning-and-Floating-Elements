@@ -1,10 +1,11 @@
 * {
     box-sizing: border-box;
+    font-size: 14.5px;
+    line-height: 1.4;
 }
 
 body {
     margin: 0;
-    background: #f7f7f7;
     font-family: karnak-normal-400, sans-serif;
 }
 
@@ -61,13 +62,14 @@ nav > div {
 }
 
 #account {
-    text-align: right;
+  text-align: right;
 }
 
 #account button{
-  padding: 7px;
   color: #fff;
   cursor: pointer;
+  font-size: 0.75em;
+  padding: 5px 7px;
   font-weight: bold;
   border-radius: 3px;
   text-transform: uppercase;
@@ -81,31 +83,75 @@ nav > div {
 }
 
 main {
-    margin-top: 55px;
+  margin-top: 55px;
+  border-top: 1px solid transparent;
 }
 
-#subscribe {
-    color: #fff;
-    padding: 30px;
-    background: #000;
-    text-align: center;
+#photo {
+  margin-top: 30px;
 }
 
-#subscribe>div {
-    padding: 20px;
-    text-align: left;
-    white-space: nowrap;
-    vertical-align: top;
-    display: inline-block;
+#photo .title{
+  font-size: 2em;
+  font-style: italic;
+  margin: 20px 0;
 }
 
-#subscribe>div p {
-    margin: 0;
+#photo .title span{
+  width: 50%;
+  margin: auto;
+  display: block;
 }
 
-#subscribe>div.second {
-    font-weight: 700;
-    font-size: 1.5em;
+#photo img{
+  width: 70%;
+  margin: auto;
+  display: block;
+}
+
+#photo p {
+  width: 70%;
+  color: #666;
+  margin: 15px auto;
+}
+
+#photo p > span{
+  color: #888;
+  font-size: 0.9em;
+}
+
+.extra {
+  overflow: hidden;
+}
+
+.extra ul {
+  margin: 0;
+  padding: 0;
+  float: right;
+  list-style-type: none;
+}
+
+.extra ul > li{
+  display: inline-block;
+}
+
+article p {
+  width: 70%;
+  overflow: hidden;
+  font-size: 1.25em;
+  padding-left: 15%;
+  margin: 20px auto;
+}
+
+article img {
+  width: 100%;
+  float:right;
+  margin: auto;
+  display: block;
+}
+
+iframe {
+  margin: auto;
 }
 
 /********* footer ***************************/
