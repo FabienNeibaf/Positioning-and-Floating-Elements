@@ -1,4 +1,3 @@
-<<<<<<< HEAD:assets/styles/style.css
 /****************** ALTERNATIVE *****************/
 
 #alternative {
@@ -21,8 +20,6 @@
 
 /****************** FOOTER *****************/
 
-||||||| merged common ancestors
-=======
 * {
   box-sizing: border-box;
 }
@@ -36,19 +33,16 @@ body {
 nav {
   top: 0;
   width: 100%;
-  height: 42px;
-  overflow: auto;
   position: fixed;
+  overflow: hidden;
   padding: 5px 15px;
   background: #fff;
   border-bottom: 1px solid #ddd;
 }
 
-nav > span {
+nav > div {
   float: left;
-  height: 100%;
   width: 33.33%;
-  vertical-align: middle;
 }
 
 #menu svg {
@@ -61,6 +55,7 @@ nav > span {
   padding: 5px;
   background: none;
   border-radius: 3px;
+  vertical-align: middle;
 }
 
 #menu button:hover {
@@ -81,7 +76,9 @@ nav > span {
   text-align: center;
 }
 #logo svg {
+  top: 2px;
   height: 25px;
+  position: relative;
 }
 
 #account {
@@ -91,11 +88,17 @@ nav > span {
 #account button{
   padding: 7px;
   color: #fff;
+  cursor: pointer;
   font-weight: bold;
   border-radius: 3px;
   text-transform: uppercase;
   background-color: #6288a5;
   border: 1px solid #326891;
+}
+
+#account button:active {
+  color: #555;
+  background: #fff;
 }
 
 main {
@@ -126,7 +129,6 @@ main {
   font-size: 1.5em;
 }
 
->>>>>>> 4bd1bba0397f4235450d572094296e9013dab76e:style.css
 footer {
     /*border: 1px solid red;*/
     padding: 0 1%;
