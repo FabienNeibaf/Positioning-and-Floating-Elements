@@ -1,132 +1,110 @@
-<<<<<<< HEAD:assets/styles/style.css
-/****************** ALTERNATIVE *****************/
-
-#alternative {
-    padding: 0 1%;
-    border: 1px solid red;
-}
-
-#thumbnails {
-    width: 65%;
-}
-
-#alternative aside {
-    width: 31%;
-    border: 1px solid green;
-}
-
-
-/****************** ALTERNATIVE [end]*****************/
-
-
-/****************** FOOTER *****************/
-
-||||||| merged common ancestors
-=======
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-  margin: 0;
-  background: #f7f7f7;
-  font-family: karnak-normal-400, sans-serif;
+    margin: 0;
+    background: #f7f7f7;
+    font-family: karnak-normal-400, sans-serif;
 }
 
 nav {
-  top: 0;
-  width: 100%;
-  height: 42px;
-  overflow: auto;
-  position: fixed;
-  padding: 5px 15px;
-  background: #fff;
-  border-bottom: 1px solid #ddd;
+    top: 0;
+    width: 100%;
+    height: 42px;
+    overflow: auto;
+    position: fixed;
+    padding: 5px 15px;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
 }
 
-nav > span {
-  float: left;
-  height: 100%;
-  width: 33.33%;
-  vertical-align: middle;
+nav>span {
+    float: left;
+    height: 100%;
+    width: 33.33%;
+    vertical-align: middle;
 }
 
 #menu svg {
-  width: 18px;
-  height: 18px;
+    width: 18px;
+    height: 18px;
 }
 
 #menu button {
-  border: none;
-  padding: 5px;
-  background: none;
-  border-radius: 3px;
+    border: none;
+    padding: 5px;
+    background: none;
+    border-radius: 3px;
 }
 
 #menu button:hover {
-  background: #eee;
+    background: #eee;
 }
 
 #menu a {
-  color: #000;
-  text-decoration: unset;
-  text-transform: uppercase;
+    color: #000;
+    text-decoration: unset;
+    text-transform: uppercase;
 }
 
 #menu a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 #logo {
-  text-align: center;
+    text-align: center;
 }
+
 #logo svg {
-  height: 25px;
+    height: 25px;
 }
 
 #account {
-  text-align: right;
+    text-align: right;
 }
 
-#account button{
-  padding: 7px;
-  color: #fff;
-  font-weight: bold;
-  border-radius: 3px;
-  text-transform: uppercase;
-  background-color: #6288a5;
-  border: 1px solid #326891;
+#account button {
+    padding: 7px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 3px;
+    text-transform: uppercase;
+    background-color: #6288a5;
+    border: 1px solid #326891;
 }
 
 main {
-  margin-top: 55px;
+    margin-top: 55px;
 }
 
 #subscribe {
-  color: #fff;
-  padding: 30px;
-  background: #000;
-  text-align: center;
+    color: #fff;
+    padding: 30px;
+    background: #000;
+    text-align: center;
 }
 
-#subscribe > div {
-  padding: 20px;
-  text-align: left;
-  white-space: nowrap;
-  vertical-align: top;
-  display: inline-block;
+#subscribe>div {
+    padding: 20px;
+    text-align: left;
+    white-space: nowrap;
+    vertical-align: top;
+    display: inline-block;
 }
 
-#subscribe > div p {
-  margin: 0;
+#subscribe>div p {
+    margin: 0;
 }
 
-#subscribe > div.second {
-  font-weight: 700;
-  font-size: 1.5em;
+#subscribe>div.second {
+    font-weight: 700;
+    font-size: 1.5em;
 }
 
->>>>>>> 4bd1bba0397f4235450d572094296e9013dab76e:style.css
+
+/********* footer ***************************/
+
 footer {
     /*border: 1px solid red;*/
     padding: 0 1%;
@@ -227,3 +205,53 @@ footer hr {
 
 
 /****************** FOOTER [end] *****************/
+
+
+/****************** ALTERNATE *********************/
+
+#alternative {
+    /*border: 1px solid blue;*/
+    padding: 0 1%;
+    width: 100%;
+    margin-bottom: 40px;
+    /*margin-top: 3%;*/
+}
+
+#thumbnails {
+    width: 65%;
+    float: left;
+    border: 1px solid red;
+}
+
+#alternative aside {
+    width: 33%;
+    /*border: 1px solid green;*/
+    float: left;
+}
+
+#alternative .side_headings {
+    padding: 3.4% 10px;
+    border-bottom: 1px solid rgb(226, 226, 226);
+    border-top: 1px solid rgb(226, 226, 226);
+    font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+}
+
+#alternative .side_headings a {
+    text-decoration: none;
+    color: rgb(18, 18, 18);
+}
+
+#alternative .side_headings a:hover {
+    color: rgb(226, 226, 226);
+}
+
+#alternative h4 {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.375rem;
+    /*padding: 15px;*/
+    padding: 2% 2% 0 2%;
+    border-top: 1px solid rgb(0, 0, 0);
+}
