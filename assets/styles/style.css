@@ -1,3 +1,4 @@
+<<<<<<< HEAD:assets/styles/style.css
 /****************** ALTERNATIVE *****************/
 
 #alternative {
@@ -20,6 +21,112 @@
 
 /****************** FOOTER *****************/
 
+||||||| merged common ancestors
+=======
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f7f7f7;
+  font-family: karnak-normal-400, sans-serif;
+}
+
+nav {
+  top: 0;
+  width: 100%;
+  height: 42px;
+  overflow: auto;
+  position: fixed;
+  padding: 5px 15px;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+nav > span {
+  float: left;
+  height: 100%;
+  width: 33.33%;
+  vertical-align: middle;
+}
+
+#menu svg {
+  width: 18px;
+  height: 18px;
+}
+
+#menu button {
+  border: none;
+  padding: 5px;
+  background: none;
+  border-radius: 3px;
+}
+
+#menu button:hover {
+  background: #eee;
+}
+
+#menu a {
+  color: #000;
+  text-decoration: unset;
+  text-transform: uppercase;
+}
+
+#menu a:hover {
+  text-decoration: underline;
+}
+
+#logo {
+  text-align: center;
+}
+#logo svg {
+  height: 25px;
+}
+
+#account {
+  text-align: right;
+}
+
+#account button{
+  padding: 7px;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 3px;
+  text-transform: uppercase;
+  background-color: #6288a5;
+  border: 1px solid #326891;
+}
+
+main {
+  margin-top: 55px;
+}
+
+#subscribe {
+  color: #fff;
+  padding: 30px;
+  background: #000;
+  text-align: center;
+}
+
+#subscribe > div {
+  padding: 20px;
+  text-align: left;
+  white-space: nowrap;
+  vertical-align: top;
+  display: inline-block;
+}
+
+#subscribe > div p {
+  margin: 0;
+}
+
+#subscribe > div.second {
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+>>>>>>> 4bd1bba0397f4235450d572094296e9013dab76e:style.css
 footer {
     /*border: 1px solid red;*/
     padding: 0 1%;
@@ -35,7 +142,6 @@ footer {
     border-bottom: 1px solid #ebebeb;
     font-size: 13px;
     font-weight: 700;
-    /*height: 44px;*/
     padding-top: 15px;
     padding-bottom: 15px;
     vertical-align: middle;
