@@ -1,7 +1,7 @@
 * {
-    box-sizing: border-box;
-    font-size: 14.5px;
-    line-height: 1.4;
+  box-sizing: border-box;
+  font-size: 14.5px;
+  line-height: 1.4;
 }
 
 body {
@@ -136,6 +136,26 @@ main {
   display: inline-block;
 }
 
+article .author, article .extra {
+  width: 70%;
+  margin: 20px auto;
+  padding-left: 15%;
+}
+
+article .author {
+  font-size: 0.95em;
+}
+
+article .author a {
+  color: #000;
+  text-decoration: none;
+  border-bottom: 1px solid #bbb;
+}
+
+article .author a:hover {
+  border-bottom-color: transparent;
+}
+
 article h2 {
   width: 70%;
   font-size: 1.25em;
@@ -159,33 +179,13 @@ article img {
   display: block;
 }
 
-article .author, article .extra {
-  width: 70%;
-  margin: 20px auto;
-  padding-left: 15%;
-}
-
-article .author {
-  font-size: 0.95em;
-}
-
-article .author a {
-  color: #000;
-  text-decoration: none;
-  border-bottom: 1px solid #bbb;
-}
-
-article .author a:hover {
-  border-bottom-color: transparent;
-}
-
-article a {
+article .extra a {
   width: 20px;
   height: 20px;
   display: block;
   text-align: center;
   border-radius: 50%;
-  background: #f2f2f2;
+  background: #eee;
   box-sizing: content-box;
 }
 
