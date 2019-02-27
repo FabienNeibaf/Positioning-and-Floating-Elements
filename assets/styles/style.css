@@ -211,22 +211,27 @@ footer hr {
 
 #alternative {
     /*border: 1px solid blue;*/
-    padding: 0 1%;
+    padding-left: 1%;
+    padding-right: 1%;
     width: 100%;
-    margin-bottom: 40px;
+    margin-bottom: 100px;
     /*margin-top: 3%;*/
+    padding-top: 2%;
 }
 
 #thumbnails {
     width: 65%;
     float: left;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 #alternative aside {
-    width: 33%;
-    border: 1px solid green;
+    width: 32%;
+    /*border: 1px solid green;*/
     float: left;
+    border-top: 1px solid rgb(0, 0, 0);
+    margin-bottom: 14%;
+    margin-left: 2%;
 }
 
 #alternative .side_headings {
@@ -252,14 +257,25 @@ footer hr {
     font-weight: 700;
     line-height: 1.375rem;
     /*padding: 15px;*/
-    padding: 2% 2% 0 2%;
+    padding: 0 2% 0 2%;
+}
+
+#thumbnails {
     border-top: 1px solid rgb(0, 0, 0);
+    padding-top: 2%;
 }
 
 #thumbnails .thumbnails_row .thumbnail_block {
-    border: 1px solid orange;
-    width: 33%;
+    /*border: 1px solid orange;*/
+    width: 31%;
     float: left;
+    padding-bottom: 4%;
+    margin-right: 1.9%;
+}
+
+#thumbnails .thumbnails_row .thumbnail_block img {
+    /*border: 1px solid orange;*/
+    width: 95%;
 }
 
 #thumbnails .thumbnails_row .thumbnail_block .img_caption {
@@ -269,6 +285,10 @@ footer hr {
     color: grey;
     font-family: karnak-normal-400, sans-serif;
     margin: 0;
+}
+
+#thumbnails .thumbnails_row {
+    margin-bottom: 40%;
 }
 
 #thumbnails .thumbnails_row .thumbnail_block .img_date {
