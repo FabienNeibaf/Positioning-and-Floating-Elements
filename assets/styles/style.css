@@ -1,0 +1,563 @@
+* {
+    box-sizing: border-box;
+    font-size: 14.5px;
+    line-height: 1.4;
+}
+
+body {
+    margin: 0;
+    font-family: karnak-normal-400, sans-serif;
+}
+
+nav {
+    top: 0;
+    width: 100%;
+    position: fixed;
+    overflow: hidden;
+    padding: 5px 15px;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+nav>div {
+    float: left;
+    width: 33.33%;
+}
+
+#menu svg {
+    width: 18px;
+    height: 18px;
+}
+
+#menu button {
+    border: none;
+    padding: 5px;
+    background: none;
+    border-radius: 3px;
+    vertical-align: middle;
+}
+
+#menu button:hover {
+    background: #eee;
+}
+
+#menu a {
+    color: #000;
+    text-decoration: unset;
+    text-transform: uppercase;
+}
+
+#menu a:hover {
+    text-decoration: underline;
+}
+
+#logo {
+    text-align: center;
+}
+
+#logo svg {
+    top: 4px;
+    height: 25px;
+    position: relative;
+}
+
+#account {
+    text-align: right;
+}
+
+#account button {
+    color: #fff;
+    cursor: pointer;
+    font-size: 0.75em;
+    padding: 5px 7px;
+    font-weight: bold;
+    border-radius: 3px;
+    text-transform: uppercase;
+    background-color: #6288a5;
+    border: 1px solid #326891;
+}
+
+#account button:active {
+    color: #555;
+    background: #fff;
+}
+
+main {
+    margin: auto 80px;
+    margin-top: 55px;
+    border-top: 1px solid transparent;
+}
+
+#photo {
+    margin-top: 30px;
+}
+
+#photo .title {
+    font-size: 2em;
+    font-style: italic;
+    margin: 20px 0;
+}
+
+#photo .title span {
+    width: 50%;
+    margin: auto;
+    display: block;
+}
+
+#photo img {
+    width: 70%;
+    margin: auto;
+    display: block;
+}
+
+#photo p {
+    width: 70%;
+    color: #666;
+    margin: 15px auto;
+}
+
+#photo p>span {
+    color: #888;
+    font-size: 0.9em;
+}
+
+.extra {
+    overflow: hidden;
+}
+
+.extra a {
+    width: 20px;
+    height: 20px;
+    padding: 7px;
+    display: block;
+    text-align: center;
+    border-radius: 50%;
+    background: #f2f2f2;
+    box-sizing: content-box;
+}
+
+.extra span.date {
+    top: 8px;
+    position: relative;
+}
+
+.extra ul {
+    margin: 0;
+    padding: 0;
+    float: right;
+    list-style-type: none;
+}
+
+.extra ul>li {
+    margin: 0 5px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.extra button {
+    cursor: pointer;
+    background: none;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+article {
+    color: #333;
+    margin: auto;
+}
+
+article .part {
+    overflow: hidden;
+}
+
+article .part .content {
+    width: 80%;
+    float: left;
+    padding-left: 25%;
+}
+
+article .part aside {
+    width: 20%;
+    float: right;
+    margin-top: 20%;
+    /*min-width: 200px;*/
+    padding-left: 2%;
+    vertical-align: middle;
+}
+
+article .part>aside img {
+    float: left;
+    width: 70px;
+    margin-right: 10px;
+}
+
+article .part aside article {
+    margin-top: 20px;
+    font-size: 0.9em;
+    overflow: hidden;
+}
+
+article .part aside a {
+    color: inherit;
+    text-decoration: none;
+}
+
+article .part aside h2 {
+    padding: 10px 0;
+    font-size: 0.9em;
+    font-weight: bold;
+    border-bottom: 1px solid #aaa;
+}
+
+article .author,
+article .extra {
+    margin: 20px auto;
+}
+
+article .author {
+    font-size: 0.95em;
+}
+
+article .author a {
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #bbb;
+}
+
+article .author a:hover {
+    border-bottom-color: transparent;
+}
+
+article .author a:hover {
+    border-bottom-color: transparent;
+}
+
+article h2 {
+    font-size: 1.25em;
+    font-weight: bold;
+    margin: 20px auto;
+}
+
+article p {
+    font-size: 1.25em;
+    margin: 20px auto;
+}
+
+article img {
+    width: 100%;
+    float: right;
+    margin: auto;
+    display: block;
+}
+
+.astronomy {
+    margin-bottom: 40px;
+}
+
+.astronomy p,
+.astronomy span {
+    color: #444;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 17px;
+    font-family: nyt-franklin, arial, helvetica, sans-serif;
+}
+
+.astronomy h2 {
+    margin-bottom: 5px;
+}
+
+.astronomy .img-text {
+    height: 600px;
+    min-width: 650px;
+    overflow: hidden;
+    position: relative;
+}
+
+.astronomy .img-text span {
+    width: 25%;
+    float: left;
+    padding: 5px;
+    text-align: left;
+}
+
+.astronomy .img-text img {
+    width: 100%;
+    height: 100%;
+}
+
+.astronomy em {
+    font-weight: bold;
+}
+
+.astronomy .sep {
+    width: 70px;
+    margin-top: 50px;
+    border-bottom: 1px solid #000;
+}
+
+.astronomy .first,
+.astronomy .second {
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+}
+
+.astronomy .first {
+    top: 85px;
+}
+
+.astronomy .second {
+    bottom: 0
+}
+
+.comm button {
+    border: none;
+    color: #fff;
+    font-size: 0.8em;
+    font-weight: bold;
+    padding: 10px 100px;
+    border-radius: 2px;
+    background: #3c7eb1
+}
+
+.comm button:hover {
+    background: #316892;
+}
+
+iframe {
+    width: 100%;
+    margin: auto;
+    display: block;
+}
+
+
+/********* footer ***************************/
+
+footer {
+    /*border: 1px solid red;*/
+    padding: 0 3%;
+}
+
+#foot-title {
+    padding-left: 3%;
+}
+
+#bottom-menu li {
+    list-style: none;
+    border-top: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+    font-size: 13px;
+    font-weight: 700;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 0.04rem;
+}
+
+#blurred-row {
+    text-align: center;
+}
+
+#blurred-row li {
+    list-style: none;
+    display: inline-block;
+    font-weight: inherit;
+    font-size: 100%;
+    padding: 0 5px;
+}
+
+#blurred-row a {
+    text-decoration: none;
+    font-size: 12px;
+    color: grey;
+}
+
+#blurred-row a:hover {
+    text-decoration: underline;
+}
+
+footer .go2home {
+    /*border: 1px solid black;*/
+    float: right;
+    width: 40%;
+    text-align: right;
+    font-family: nyt-franklin;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 11px;
+    vertical-align: middle;
+    padding-top: 10px;
+}
+
+footer .go2home a {
+    text-decoration: none;
+    color: rgb(98, 136, 165);
+}
+
+footer .go2home a:hover {
+    text-decoration: underline;
+}
+
+#last-line .subscribe-bottom {
+    width: 15%;
+    float: right;
+    text-align: right;
+    text-transform: uppercase;
+    letter-spacing: 0.24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkslategray;
+}
+
+#last-line .bottom-txt {
+    width: 80%;
+    text-align: center;
+    /*border: 1px solid red;*/
+    float: left;
+    color: darkslategray;
+    letter-spacing: 0.24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#last-line {}
+
+footer hr {
+    border-color: black;
+}
+
+.lite-weight {
+    font-weight: 100;
+}
+
+
+/****************** FOOTER [end] *****************/
+
+
+/****************** ALTERNATE *********************/
+
+#alternative {
+    /*border: 1px solid blue;*/
+    padding-left: 1%;
+    padding-right: 1%;
+    width: 100%;
+    margin-bottom: 100px;
+    padding-top: 2%;
+}
+
+#thumbnails {
+    width: 65%;
+    float: left;
+}
+
+#alternative aside {
+    width: 32%;
+    float: left;
+    border-top: 1px solid rgb(0, 0, 0);
+    margin-bottom: 23%;
+    margin-left: 3%;
+}
+
+#alternative .side-headings {
+    padding: 3.4% 10px;
+    border-bottom: 1px solid rgb(226, 226, 226);
+    border-top: 1px solid rgb(226, 226, 226);
+    font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+}
+
+#alternative .side-headings a {
+    text-decoration: none;
+    color: rgb(18, 18, 18);
+}
+
+#alternative .side-headings a:hover {
+    color: rgb(226, 226, 226);
+}
+
+#alternative h4 {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.375rem;
+    /*padding: 15px;*/
+    padding: 2%;
+}
+
+#thumbnails {
+    border-top: 1px solid rgb(0, 0, 0);
+    /*padding-top: 2%;*/
+}
+
+#thumbnails .thumbnails-row .thumbnail-block {
+    width: 31%;
+    float: left;
+    padding-bottom: 4%;
+    margin-right: 1.9%;
+}
+
+#thumbnails .thumbnails-row .thumbnail-block img {
+    width: 95%;
+}
+
+#thumbnails .thumbnails-row .thumbnail-block .img-caption {
+    text-align: right;
+    font-size: 10px;
+    display: block;
+    color: grey;
+    font-family: karnak-normal-400, sans-serif;
+    margin: 0;
+}
+
+.bottom-line-divisor {
+    display: inline-block;
+    width: 100%;
+    border: 1px solid grey
+}
+
+#thumbnails .thumbnails-row {
+    margin-bottom: 40%;
+    min-height: 40px;
+}
+
+#thumbnails .thumbnails-row .thumbnail-block .img-date {
+    text-align: left;
+    font-size: 13px;
+    display: block;
+    color: grey;
+    font-family: karnak-normal-400, sans-serif;
+    margin: 0;
+    letter-spacing: 0.24px;
+}
+
+#thumbnails .thumbnails-row .thumbnail-block h3 {
+    font-size: 18px;
+    line-height: 22px;
+    padding: 0;
+    margin: 0;
+}
+
+.thumbnails-sub-title {
+    display: inline-block;
+    width: 100%;
+    padding: 2% 0;
+}
+
+.thumbnails-sub-title a {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 22px;
+    color: black;
+}
+
+.thumbnails-sub-title a:hover {
+    text-decoration: underline;
+    border-bottom-style: outset;
+}
+
+.after-box {
+    clear: left;
+}
