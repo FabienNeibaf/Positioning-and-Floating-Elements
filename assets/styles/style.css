@@ -333,11 +333,11 @@ footer {
     padding: 0 3%;
 }
 
-#foot_title {
+#foot-title {
     padding-left: 3%;
 }
 
-#bottom_menu li {
+#bottom-menu li {
     list-style: none;
     border-top: 1px solid #ebebeb;
     border-bottom: 1px solid #ebebeb;
@@ -350,11 +350,11 @@ footer {
     letter-spacing: 0.04rem;
 }
 
-#blurred_row {
+#blurred-row {
     text-align: center;
 }
 
-#blurred_row li {
+#blurred-row li {
     list-style: none;
     display: inline-block;
     font-weight: inherit;
@@ -362,13 +362,13 @@ footer {
     padding: 0 5px;
 }
 
-#blurred_row a {
+#blurred-row a {
     text-decoration: none;
     font-size: 12px;
     color: grey;
 }
 
-#blurred_row a:hover {
+#blurred-row a:hover {
     text-decoration: underline;
 }
 
@@ -395,7 +395,7 @@ footer .go2home a:hover {
     text-decoration: underline;
 }
 
-#last_line .subscribe_bottom {
+#last-line .subscribe-bottom {
     width: 15%;
     float: right;
     text-align: right;
@@ -405,7 +405,7 @@ footer .go2home a:hover {
     color: darkslategray;
 }
 
-#last_line .bottom_txt {
+#last-line .bottom-txt {
     width: 80%;
     text-align: center;
     /*border: 1px solid red;*/
@@ -417,13 +417,13 @@ footer .go2home a:hover {
     vertical-align: middle;
 }
 
-#last_line {}
+#last-line {}
 
 footer hr {
     border-color: black;
 }
 
-.lite_weight {
+.lite-weight {
     font-weight: 100;
 }
 
@@ -455,7 +455,7 @@ footer hr {
     margin-left: 3%;
 }
 
-#alternative .side_headings {
+#alternative .side-headings {
     padding: 3.4% 10px;
     border-bottom: 1px solid rgb(226, 226, 226);
     border-top: 1px solid rgb(226, 226, 226);
@@ -464,12 +464,12 @@ footer hr {
     line-height: 1.375rem;
 }
 
-#alternative .side_headings a {
+#alternative .side-headings a {
     text-decoration: none;
     color: rgb(18, 18, 18);
 }
 
-#alternative .side_headings a:hover {
+#alternative .side-headings a:hover {
     color: rgb(226, 226, 226);
 }
 
@@ -486,18 +486,18 @@ footer hr {
     /*padding-top: 2%;*/
 }
 
-#thumbnails .thumbnails_row .thumbnail_block {
+#thumbnails .thumbnails-row .thumbnail-block {
     width: 31%;
     float: left;
     padding-bottom: 4%;
     margin-right: 1.9%;
 }
 
-#thumbnails .thumbnails_row .thumbnail_block img {
+#thumbnails .thumbnails-row .thumbnail-block img {
     width: 95%;
 }
 
-#thumbnails .thumbnails_row .thumbnail_block .img_caption {
+#thumbnails .thumbnails-row .thumbnail-block .img-caption {
     text-align: right;
     font-size: 10px;
     display: block;
@@ -506,18 +506,18 @@ footer hr {
     margin: 0;
 }
 
-.bottom_line_divisor {
+.bottom-line-divisor {
     display: inline-block;
     width: 100%;
     border: 1px solid grey
 }
 
-#thumbnails .thumbnails_row {
+#thumbnails .thumbnails-row {
     margin-bottom: 40%;
     min-height: 40px;
 }
 
-#thumbnails .thumbnails_row .thumbnail_block .img_date {
+#thumbnails .thumbnails-row .thumbnail-block .img-date {
     text-align: left;
     font-size: 13px;
     display: block;
@@ -527,27 +527,27 @@ footer hr {
     letter-spacing: 0.24px;
 }
 
-#thumbnails .thumbnails_row .thumbnail_block h3 {
+#thumbnails .thumbnails-row .thumbnail-block h3 {
     font-size: 18px;
     line-height: 22px;
     padding: 0;
     margin: 0;
 }
 
-.thumbnails_sub_title {
+.thumbnails-sub-title {
     display: inline-block;
     width: 100%;
     padding: 2% 0;
 }
 
-.thumbnails_sub_title a {
+.thumbnails-sub-title a {
     text-decoration: none;
     font-size: 18px;
     line-height: 22px;
     color: black;
 }
 
-.thumbnails_sub_title a:hover {
+.thumbnails-sub-title a:hover {
     text-decoration: underline;
     border-bottom-style: outset;
 }
