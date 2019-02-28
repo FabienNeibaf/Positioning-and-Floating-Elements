@@ -180,6 +180,7 @@ article .part aside {
   width: 20%;
   float: right;
   margin-top: 20%;
+  min-width: 200px;
   padding-left: 2%;
   vertical-align: middle;
 }
@@ -267,6 +268,7 @@ article img {
 
 .astronomy .img-text {
   height: 600px;
+  min-width: 650px;
   overflow: hidden;
   position: relative;
 }
@@ -328,7 +330,7 @@ iframe {
 
 footer {
     /*border: 1px solid red;*/
-    padding: 0 1%;
+    padding: 0 3%;
 }
 
 #foot_title {
@@ -411,7 +413,11 @@ footer .go2home a:hover {
     color: darkslategray;
     letter-spacing: 0.24px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: table-cell;
+    vertical-align: middle;
 }
+
+#last_line {}
 
 footer hr {
     border-color: black;
@@ -544,4 +550,8 @@ footer hr {
 .thumbnails_sub_title a:hover {
     text-decoration: underline;
     border-bottom-style: outset;
+}
+
+.after-box {
+    clear: left;
 }
