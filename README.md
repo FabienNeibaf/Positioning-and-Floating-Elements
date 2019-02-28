@@ -6,8 +6,6 @@ Building a replica of NEW YORK TIMES article website (https://www.nytimes.com/20
 
 An HTML + CSS mockup
 
-Project assignment from the ODIN PROJECT --> https://www.theodinproject.com/courses/html5-and-css3/lessons/positioning-and-floating-elements
-
 ## Contributors
 
 - Louis SHEY _https://github.com/shloch_
@@ -15,4 +13,4 @@ Project assignment from the ODIN PROJECT --> https://www.theodinproject.com/cour
 
 ## Live demo
 
-Go to _https://raw.githack.com/FabienNeibaf/Positioning-and-Floating-Elements/develop/index.html_ to have a taste of the result
+Go to _https://raw.githack.com/FabienNeibaf/Positioning-and-Floating-Elements/master/index.html_ to have a taste of the result
