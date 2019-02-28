@@ -14,3 +14,5 @@ Project assignment from the ODIN PROJECT --> https://www.theodinproject.com/cour
 - Fabien RAKOTOMAMPIANDRA _https://github.com/FabienNeibaf_
 
 ## Live demo
+
+Go to _https://raw.githack.com/FabienNeibaf/Positioning-and-Floating-Elements/develop/index.html_ to have a taste of the result
