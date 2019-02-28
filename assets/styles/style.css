@@ -1,7 +1,7 @@
 * {
-    box-sizing: border-box;
-    font-size: 14.5px;
-    line-height: 1.4;
+  box-sizing: border-box;
+  font-size: 14.5px;
+  line-height: 1.4;
 }
 
 body {
@@ -116,7 +116,7 @@ main {
     margin: 15px auto;
 }
 
-#photo p>span {
+#photo p > span {
     color: #888;
     font-size: 0.9em;
 }
@@ -125,49 +125,63 @@ main {
     overflow: hidden;
 }
 
+.extra a {
+  width: 20px;
+  height: 20px;
+  padding: 7px;
+  display: block;
+  text-align: center;
+  border-radius: 50%;
+  background: #f2f2f2;
+  box-sizing: content-box;
+}
+
+.extra span.date {
+  top: 8px;
+  position: relative;
+}
+
 .extra ul {
-    margin: 0;
-    padding: 0;
-    float: right;
-    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: right;
+  list-style-type: none;
 }
 
-.extra ul>li {
-    display: inline-block;
+.extra ul > li {
+  margin: 0 5px;
+  display: inline-block;
+  vertical-align: middle;
 }
 
-article h2 {
-    width: 70%;
-    font-size: 1.25em;
-    font-weight: bold;
-    padding-left: 15%;
-    margin: 20px auto;
+.extra button {
+  cursor: pointer;
+  background: none;
+  border-radius: 5px;
+  border: 1px solid #000;
 }
 
-article p {
-    width: 70%;
-    overflow: hidden;
-    font-size: 1.25em;
-    padding-left: 15%;
-    margin: 20px auto;
+article {
+  width: 70%;
+  margin: auto;
 }
 
-article img {
-    width: 100%;
-    float: right;
-    margin: auto;
-    display: block;
+article .part {
+  overflow: hidden;
+}
+
+article .part .content {
+  float: left;
+  margin-left: 15%;
 }
 
 article .author,
 article .extra {
-    width: 70%;
     margin: 20px auto;
-    padding-left: 15%;
 }
 
 article .author {
-    font-size: 0.95em;
+  font-size: 0.95em;
 }
 
 article .author a {
@@ -180,19 +194,47 @@ article .author a:hover {
     border-bottom-color: transparent;
 }
 
-article a {
-    width: 20px;
-    height: 20px;
+article .author a:hover {
+  border-bottom-color: transparent;
+}
+
+article h2 {
+    font-size: 1.25em;
+    font-weight: bold;
+    margin: 20px auto;
+}
+
+article p {
+    font-size: 1.25em;
+    margin: 20px auto;
+}
+
+article img {
+    width: 100%;
+    float: right;
+    margin: auto;
     display: block;
-    text-align: center;
-    border-radius: 50%;
-    background: #f2f2f2;
-    box-sizing: content-box;
+}
+
+.astronomy * {
+  color: #444;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 17px;
+  font-family: nyt-franklin,arial,helvetica,sans-serif;
+}
+.astronomy h2 {
+  margin-bottom: 5px;
+}
+
+.astronomy .img-text {
+
 }
 
 iframe {
-    margin: auto;
-    display: block;
+  width: 100%;
+  margin: auto;
+  display: block;
 }
 
 
