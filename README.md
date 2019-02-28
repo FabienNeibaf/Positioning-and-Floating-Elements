@@ -13,4 +13,4 @@ An HTML + CSS mockup
 
 ## Live demo
 
-Go to _https://raw.githack.com/FabienNeibaf/Positioning-and-Floating-Elements/master/index.html_ to have a taste of the result
+Go to _https://rawcdn.githack.com/FabienNeibaf/Positioning-and-Floating-Elements/904d651f742aea5141a637fcd278dbbb4f68e4a4/index.html_ to have a taste of the result
