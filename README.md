@@ -11,6 +11,9 @@ An HTML + CSS mockup
 
 Go to _https://rawcdn.githack.com/FabienNeibaf/Positioning-and-Floating-Elements/904d651f742aea5141a637fcd278dbbb4f68e4a4/index.html_ to have a taste of the result
 
+## Screenshot 
+![alt text](https://github.com/FabienNeibaf/Positioning-and-Floating-Elements/blob/master/assets/images/design.gif)
+
 ## Contributors
 
 ### 👤 **SHEY Louis CHIA**
