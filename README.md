@@ -6,11 +6,19 @@ Building a replica of NEW YORK TIMES article website (https://www.nytimes.com/20
 
 An HTML + CSS mockup
 
-## Contributors
-
-- Louis SHEY _https://github.com/shloch_
-- Fabien RAKOTOMAMPIANDRA _https://github.com/FabienNeibaf_
 
 ## Live demo
 
 Go to _https://rawcdn.githack.com/FabienNeibaf/Positioning-and-Floating-Elements/904d651f742aea5141a637fcd278dbbb4f68e4a4/index.html_ to have a taste of the result
+
+## Contributors
+
+### 👤 **SHEY Louis CHIA**
+
+- Github: [shloch](https://github.com/shloch)
+- Twitter: [@shloch](https://twitter.com/shloch)
+- Linkedin: [/in/shey-louis-chia](https://www.linkedin.com/in/shey-louis-chia)
+- Email: shloch2007@yahoo.fr
+
+## 👤 **Fabien RAKOTOMAMPIANDRA**
+- Fabien RAKOTOMAMPIANDRA _https://github.com/FabienNeibaf_
